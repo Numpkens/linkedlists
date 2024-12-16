@@ -1,4 +1,20 @@
 Class LinkedList
+attr_accessor :head
+
+def initialize
+  self.head = nil
+end
+
+  private
+
+Class Node
+
+attr_accessor :value, :nextNode
+
+def initialize(value, _nextNode)
+  self.value = value
+  self.nextNode = nextnode
+end
 
 def append
   LinkedList.append(value)
