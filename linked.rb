@@ -1,19 +1,21 @@
+# create a linked list class and interatethrough all the methos listed
 Class LinkedList
-attr_accessor :head
+  attr_accessor :head
 
-def initialize
-  self.head = nil
-end
+  def initialize
+    self.head = nil
+  end
 
   private
 
-Class Node
+  Class Node
+    attr_accessor :value, :nextNode
 
-attr_accessor :value, :nextNode
-
-def initialize(value, _nextNode)
-  self.value = value
-  self.nextNode = nextnode
+    def initialize(value, _nextNode)
+      self.value = value
+      self.nextNode = nextnode
+    end
+end 
 end
 
 def append
@@ -26,10 +28,6 @@ end
 
 def size
   LinkedList.size
-end
-
-def head
-  LinkedList.head
 end
 
 def tail
@@ -63,7 +61,3 @@ end
 def remove_at
   LinkedList.remove_at(index)
 end
-
-Class Node
-
-nil
